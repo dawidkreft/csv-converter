@@ -1,0 +1,13 @@
+server:
+  port: 7200
+  servlet.context-path: /csv-converter
+
+self:
+  csv:
+    file-path: /home/lenovo/csv_files
+
+logging:
+  level:
+    root: INFO
+    pl.kreft.monit.csv_converter: DEBUG
+  file: ./logs/converter-csv-logs.log

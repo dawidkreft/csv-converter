@@ -2,10 +2,10 @@
 Simple csv file converter service from json data
 
 You need set correct  path to save csv file in application.yml:
-self.csv. file-path: /home/lenovo/csv_files
+self.csv.file-path:/home/user/csv_files
 
-enpodint : PUT ** localhost:7200/csv-converter/convert?name="data-name"**
-Json example ( Request body): 
+enpodint: PUT localhost:7200/csv-converter/convert?name="data-name" 
+Json example(Request body): 
 
 > [ {
   "item" : "No. 9 Sprockets",
